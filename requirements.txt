@@ -1,0 +1,10 @@
+# Install PyTorch first, matching your GPU, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch
+transformers>=4.45
+gradio>=5
+pillow
+sentencepiece
+protobuf
+matplotlib
+safetensors

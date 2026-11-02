@@ -1,0 +1,107 @@
+[
+  {
+    "file": "bar_online_shopping.png",
+    "qa": [
+      [
+        "Which country has the highest value?",
+        "USA"
+      ],
+      [
+        "What is the value for India?",
+        "35"
+      ],
+      [
+        "What is the difference between USA and Brazil?",
+        "43"
+      ]
+    ],
+    "truth": {
+      "USA": 62,
+      "China": 48,
+      "India": 35,
+      "Germany": 27,
+      "Brazil": 19
+    }
+  },
+  {
+    "file": "line_revenue.png",
+    "qa": [
+      [
+        "In which year was the revenue the lowest?",
+        "2020"
+      ],
+      [
+        "What was the revenue in 2022?",
+        "19.3"
+      ],
+      [
+        "What is the average revenue from 2021 to 2023?",
+        "19.07"
+      ]
+    ],
+    "truth": {
+      "2017": 12.4,
+      "2018": 14.1,
+      "2019": 15.8,
+      "2020": 11.2,
+      "2021": 16.9,
+      "2022": 19.3,
+      "2023": 21.0
+    }
+  },
+  {
+    "file": "pie_electricity.png",
+    "qa": [
+      [
+        "What percentage of electricity comes from renewables?",
+        "29"
+      ],
+      [
+        "Which source has the largest share?",
+        "Coal"
+      ],
+      [
+        "Is the share of nuclear greater than natural gas?",
+        "No"
+      ]
+    ],
+    "truth": {
+      "Coal": 36,
+      "Natural gas": 23,
+      "Nuclear": 10,
+      "Renewables": 29,
+      "Other": 2
+    }
+  },
+  {
+    "file": "grouped_social_media.png",
+    "qa": [
+      [
+        "What is the value for women aged 65+?",
+        "41"
+      ],
+      [
+        "Which age group has the highest share of men?",
+        "18-29"
+      ],
+      [
+        "What is the sum of men and women in the 30-49 group?",
+        "133"
+      ]
+    ],
+    "truth": {
+      "men": {
+        "18-29": 71,
+        "30-49": 64,
+        "50-64": 52,
+        "65+": 38
+      },
+      "women": {
+        "18-29": 76,
+        "30-49": 69,
+        "50-64": 55,
+        "65+": 41
+      }
+    }
+  }
+]
